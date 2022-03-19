@@ -5,78 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
+
 </head>
 
+
+
 <body>
-    <h1 id="title">Survey Karyawan Projek Baru</h1>
-    <hr>
-    <br>
-    <label for="fname">Nama:</label><br />
-    <input type="text" id="fname" name="fname" />
-    <br />
-    <br>
-    <label for="idk">ID Karyawan:</label><br />
-    <input type="text" id="idk" name="idk" />
-    <br />
-    <hr>
 
-    <table border="1">
-        <thead>
-            <tr>
-                <th>no</th>
-                <th>soal</th>
-                <th>ya</th>
-                <th>tidak</th>
-            </tr>
-        </thead>
-        <tbody>
-            <td>1</td>
-            <td>Apakah Kamu Suka Kerja Disini?</td>
-            <td><input type="radio" id="ya1" name="1" value="ya1" />
-                <label for="ya1">yes</label><br />
-            </td>
-            <td><input type="radio" id="tidak1" name="1" value="tidak1" />
-                <label for="tidak1">no</label><br />
-            </td>
-        </tbody>
-        <tbody>
-            <td>2</td>
-            <td>Apakah Kamu Suka Sistem Disini?</td>
-            <td><input type="radio" id="ya2" name="2" value="ya2" />
-                <label for="ya2">yes</label><br />
-            </td>
-            <td><input type="radio" id="tidak2" name="2" value="tidak2" />
-                <label for="tidak2">no</label><br />
-            </td>
-        </tbody>
-        <tbody>
-            <td>3</td>
-            <td>Apakah Kamu Siap bekerja lembur 24 jam nonstop?</td>
-            <td><input type="radio" id="ya3" name="3" value="ya3" />
-                <label for="ya3">yes</label><br />
-            </td>
-            <td><input type="radio" id="tidak3" name="3" value="tidak3" />
-                <label for="tidak3">no</label><br />
-            </td>
-        </tbody>
-        <tbody>
-            <td>4</td>
-            <td>Apakah Kamu siap tidak terima dana pensiun?</td>
-            <td><input type="radio" id="ya4" name="4" value="ya4" />
-                <label for="ya4">yes</label><br />
-            </td>
-            <td><input type="radio" id="tidak4" name="4" value="tidak4" />
-                <label for="tidak4">no</label><br />
-            </td>
-        </tbody>
-    </table>
-    <hr>
-    <input type="checkbox" id="ttd" name="ttd" value="ttd" />
-    <label for="ttd"> Dengan ini saya sendiri menandatangani semua pernyataan saya diatas</label><br />
-    <br />
-    <input type="submit" value="Submit" />
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./survey.html">WBB.Apps</a>
+        </div>
+    </nav>
 
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <h2 class="display-4">Survey Karyawan PT. Wah Bener Bener</h1>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <div class="form-group">
+                <label for="name">Nama :</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan Nama">
+
+            </div>
+
+            <div class="form-group">
+                <label for="id karyawan">ID Karyawan</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Masukkan ID Karyawan" required>
+                <small id="id karyawan" class="form-text text-muted">isi sesuai dengan ID karyawan Masing-masing.</small>
+            </div>
+            <center>
+                <a class="btn btn-secondary btn-lg" href="./survey2.html" role="button">Lanjut</a>
+            </center>
+        </div>
+    </div>
+    <br>
+    <br>
+    </form>
+
+    <div class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+            <p style="color:#fff">
+                &#169; Copyright Fuad Ar, Powered by Exfu Corporation
+            </p>
+        </div>
+    </div>
 </body>
 
 </html>
